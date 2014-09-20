@@ -1,0 +1,25 @@
+{
+  "name": "examedia",
+  "version": "0.0.0",
+  "description": "examedia ========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shibe97/examedia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shibe97/examedia/issues"
+  },
+  "homepage": "https://github.com/shibe97/examedia",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-connect": "^2.0.6",
+    "gulp-sass": "^0.7.3",
+    "gulp-util": "^3.0.1"
+  }
+}
