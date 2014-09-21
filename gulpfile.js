@@ -3,12 +3,15 @@ var gulputil = require('gulp-util');
 var sass = require('gulp-sass');
 var connect = require('gulp-connect');
 
+
 // Sass(SCSS)ビルドタスク
 gulp.task('sass', function () {
     // Sass(SCSS)読み込み用ディレクトリ指定
     gulp.src('./assets/scss/*.scss')
     //コンパイルメソッド実行
-    .pipe(sass())
+    .pipe(sass({
+        includePaths: require('node-bourbon').includePaths
+    }))
     //コンパイル後出力ファイル先の指定
     .pipe(gulp.dest('./assets/css'));
 });
