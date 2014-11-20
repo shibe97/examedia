@@ -2,10 +2,61 @@
     display: block;
     width: 20px;
     height: 20px;
-    background-color: #ccc;
+    background-color: #999;
     margin: 8px;
     @include hide-text;
     @include transform(rotate(45deg));
+}
+
+.w620px {
+    width: 620px;
+}
+
+.mt5px {
+    margin-top: 5px;
+}
+.mt20px {
+    margin-top: 20px;
+}
+.mt40px {
+    margin-top: 40px;
+}
+.mt60px {
+    margin-top: 60px;
+}
+
+.pt20px {
+    padding-top: 20px;
+}
+.pt40px {
+    padding-top: 40px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+.f16 {
+    font-size: 16px;
+}
+
+.txtL {
+    text-align: left;
+}
+
+.txtR {
+    text-align: right;
+}
+
+.txtBold {
+    font-weight: bold;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
 }
 
 .cf:before, .cf:after {
