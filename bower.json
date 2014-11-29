@@ -1,0 +1,20 @@
+{
+  "name": "examedia",
+  "version": "0.0.0",
+  "homepage": "https://github.com/shibe97/examedia",
+  "authors": [
+    "Kazuki Shibata <k.shibata97@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "marionette": "~2.2.2"
+  }
+}

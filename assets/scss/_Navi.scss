@@ -1,0 +1,86 @@
+.Navi {
+    position: fixed;
+    //background-color: $color-bg_navi;
+    background: url("../images/bg_navi_01.png") repeat left top;
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    //border-right: 2px solid $color-border;
+
+    &__logo {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        margin-top: -15px;
+    }
+
+    &__lists {
+        position: absolute;
+        top: 200px;
+        right: -16px;
+    }
+
+    &__list {
+        position: relative;
+        text-align: right;
+        margin: 20px 0;
+        line-height: 50px;
+
+        &.isSelected {
+
+            a {
+                font-weight: bold;
+                color: $color-accent;
+
+                &:after {
+                    position: absolute;
+                    content: "●";
+                    color: $color-accent;
+                    font-size: 60px;
+                    top: -6px;
+                    right: -2px;
+                }
+            }
+        }
+
+        a {
+            padding-right: 40px;
+            color: $color-menu_normal;
+
+            &:after {
+                position: absolute;
+                content: "●";
+                color: $color-menu_normal;
+                font-size: 43px;
+                top: -3px;
+                right: 3px;
+                z-index: 10;
+                @include transition(all 0.5s ease-in-out);
+            }
+
+            &:hover {
+                &:after {
+                    color: $color-accent;
+                }
+            }
+        }
+    }
+
+    &__border {
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        right: -2px;
+
+        &.border01 {
+            @include animation(anime 2s ease-in infinite alternate);
+        }
+    }
+}
+
+@-moz-keyframes anime {
+    0% {background-color: #39dae3;}
+    100% {background-color: #19bac3;}
+}

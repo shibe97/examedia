@@ -1,0 +1,19 @@
+.Content {
+    position: fixed;
+    background-color: $color-bg_content;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    color: $color-txt_normal;
+    box-shadow: -2px 0 4px rgba(0, 0, 0, 0.8);
+    z-index: 20;
+
+    &__title {
+        height: 30px;
+        line-height: 30px;
+        margin-top: 100px;
+        padding: 20px;
+        font-size: 30px;
+        color: $color-txt_title;
+    }
+}
