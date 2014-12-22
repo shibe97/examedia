@@ -1,7 +1,10 @@
 .Works {
-    padding: 40px 20px 0 20px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: -60px;
 
     &__list {
         display: inline-block;

@@ -142,8 +142,10 @@ input, select {
     margin-top: -15px; }
   .Navi__lists {
     position: absolute;
-    top: 200px;
-    right: -16px; }
+    top: 50%;
+    right: -16px;
+    height: 310px;
+    margin-top: -155px; }
   .Navi__list {
     position: relative;
     text-align: right;
@@ -210,7 +212,8 @@ input, select {
     color: #d7c8aa; }
 
 .News {
-  padding: 40px 20px 0 60px; }
+  padding: 40px 20px 0 60px;
+  line-height: 1.3; }
   .News__date {
     color: #999;
     font-size: 12px; }
@@ -226,9 +229,12 @@ input, select {
     margin-bottom: 20px; }
 
 .Works {
-  padding: 40px 20px 0 20px;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 50%;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: -60px; }
   .Works__list {
     display: inline-block;
     margin: 10px 30px; }
@@ -240,14 +246,17 @@ input, select {
     color: #737373; }
 
 .Contact {
-  padding: 40px 20px 0 20px;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 50%;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: -50px; }
   .Contact__list {
     display: inline-block;
     margin: 10px 30px; }
   .Contact__image {
-    width: 100px; }
+    width: 80px; }
   .Contact__title {
     margin-top: 5px;
     color: #737373; }

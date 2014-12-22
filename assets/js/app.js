@@ -9,7 +9,6 @@ App.addInitializer(function(){
     App.Content.start();
     var router = new Router();
 });
-
 var Router = Backbone.Router.extend({
     initialize : function(){
         Backbone.history.start();
